@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/apple-touch-icon.png">
+    <title>DevFolio</title>
+</head>
+<body>
+    <!-- ----------------------------loading spinner ---------------------------- -->
+    <!-- <div class="spinner-wrapper">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div> -->
+    <!-- ----------------------------header---------------------------- -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-trans">
+        <div class="container">
+            <a href="index.html" class="navbar-brand js-scroll">DevFolio
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end " id="navbarToggleExternalContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll " href="#home">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#services">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#work">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#blog">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ----------------------------home section---------------------------- -->
+    <section class="home-section d-flex justify-content-center align-items-center" id="home">
+        <div class="container d-flex justify-content-center flex-column align-items-center">
+                <h1 class="heading mb-4 text-light">I am Morgan Freeman</h1>
+                <div class="animated-text w-100 d-flex
+                 justify-content-center">
+                    <span class="d-flex flex-row">CEO DevFolio</span>
+                    <!-- <span class="WebDeveloper">Web Developer</span>
+                    <span class="WebDesigner">Web Designer</span>
+                    <span class="FrontendDeveloper">Frontend Developer</span>
+                    <span class="GraphicDesigner">Graphic Designer</span> -->
+                </div>
+        </div>
+    </section>
+    <!-- ----------------------------about section---------------------------- -->
+    <section class="about-section " id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-about">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="avatar-info row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="about-img">
+                                            <img class="img-fluid rounded" src="img/testimonial-2.jpg" alt="Morgan Freeman">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p>
+                                                <span class="card-title">name:</span>
+                                                <span class="text-dark-emphasis">Morgan Freeman</span>
+                                            </p>
+                                            <p>
+                                                <span class="card-title">profile:</span>
+                                                <span class="text-dark-emphasis about-holder">full stack developer</span>
+                                            </p>
+                                            <p>
+                                                <span class="card-title">eamil:</span>
+                                                <span class="text-dark-emphasis"> contact@example.com</span>
+                                            </p>
+                                            <p>
+                                                <span class="card-title">phone:</span>
+                                                <span class="text-dark-emphasis">(617) 557-0089</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-about">
+                                    <p class="title-skill">Skill</p>
+                                    <span>html</span>
+                                    <span class="float-end">85%</span>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar w-85"></div>
+                                    </div>
+                                    <span>css3</span>
+                                    <span class="float-end">75%</span>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar w-75"></div>
+                                    </div>
+                                    <span>php</span>
+                                    <span class="float-end">50%</span>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar w-50"></div>
+                                    </div>
+                                    <span>javascript</span>
+                                    <span class="float-end">90%</span>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar w-90"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box">
+                                       <h5 class="text-start">About me</h5> 
+                                    </div>
+                                    <p class="text-for-about">
+                                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.
+                                    </p>
+                                    <p class="text-for-about">
+                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem
+                                    </p>
+                                    <p class="text-for-about">
+                                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-section" id="services">
+
+    </section>
+    <section class="work-section" id="work">
+
+    </section>
+    <section class="blog-section" id="blog">
+
+    </section>
+    <section class="contact-section" id="contact">
+
+    </section>
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script defer src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nav-link:hover::before,
+    .nav-link .active::before {
+     width: calc(100% - (var(--inline-gap) * 1));
+   }
+    body:not(body:has(:target)) li a[href="#home"]::before,
+    body:has(.home-section:target) li a[href="#home"]::before,
+    body:has(.about-section:target) li a[href="#about"]::before,
+    body:has(.services-section:target) li a[href="#services"]::before,
+    body:has(.work-section:target) li a[href="#work"]::before {
+      width: calc(100% - (var(--inline-gap) * 1));
+    }
+}
