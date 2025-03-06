@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="icon" href="img/apple-touch-icon.png">
+
     <title>DevFolio</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#mainNav">
     <!-- ----------------------------loading spinner ---------------------------- -->
     <!-- <div class="spinner-wrapper">
         <div class="spinner-border text-primary" role="status">
@@ -18,12 +20,12 @@
         </div>
     </div> -->
     <!-- ----------------------------header---------------------------- -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-trans">
+    <nav id="mainNav" class="navbar navbar-expand-md bg-body fixed-top navbar-trans">
         <div class="container">
             <a href="index.html" class="navbar-brand js-scroll">DevFolio
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="navbar-collapse collapse justify-content-end " id="navbarToggleExternalContent">
                 <ul class="navbar-nav">
@@ -61,9 +63,9 @@
                     <span class="FrontendDeveloper">Frontend Developer</span>
                     <span class="GraphicDesigner">Graphic Designer</span> -->
                 </div>
-        </div>
+            </div>
     </section>
-    <!-- ----------------------------about section---------------------------- -->
+        <!-- ----------------------------about section---------------------------- -->
     <section class="about-section " id="about">
         <div class="container">
             <div class="row">
@@ -125,7 +127,7 @@
                             <div class="col-md-6">
                                 <div class="about-me pt-4 pt-md-0">
                                     <div class="title-box">
-                                       <h5 class="text-start">About me</h5> 
+                                        <h5 class="text-start">About me</h5> 
                                     </div>
                                     <p class="text-for-about">
                                         Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.
@@ -144,14 +146,474 @@
             </div>
         </div>
     </section>
+<!-- ----------------------------about section END---------------------------- -->
+<!-- ----------------------------Services section start---------------------------- -->
     <section class="services-section" id="services">
-
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-box text-center">
+                        <h2 class="title">Services</h2>
+                        <p class="subtitle">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <div class="underline-heading"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <span class="icon-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-display"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title-sm">Web Design</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <span class="icon-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-code"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title-sm">Web Development</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <span class="icon-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-camera"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title-sm">Photography</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <span class="icon-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title-sm">Responsive Design</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <span class="icon-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-paintbrush"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title-sm">Graphic Design</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <div class="service-icon">
+                            <span class="icon-circle d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </span>
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title-sm">Marketing Services</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+<!-- ----------------------------counter section End---------------------------- -->
+    <div class="section-counter counters bg-image">
+        <div class="overly"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-lg-3 ">
+                    <div class="counter-box text-center">
+                        <div class="counter-icon">
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-check"></i>
+                            </span>
+                        </div>
+                        <div class="counter-num">
+                            <p class="counter">450</p>
+                            <span class="counter-text">WORKS COMPLETED</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-lg-3 ">
+                    <div class="counter-box text-center">
+                        <div class="counter-icon">
+                            <span class="icon-circle">
+                                <i class="fa-regular fa-calendar"></i>
+                            </span>
+                        </div>
+                        <div class="counter-num">
+                            <p class="counter">15</p>
+                            <span class="counter-text">YEARS OF EXPERIENCE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-lg-3 ">
+                    <div class="counter-box text-center">
+                        <div class="counter-icon">
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-people-group"></i>
+                            </span>
+                        </div>
+                        <div class="counter-num">
+                            <p class="counter">550</p>
+                            <span class="counter-text" >TOTAL CLIENTS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-lg-3 ">
+                    <div class="counter-box text-center">
+                        <div class="counter-icon">
+                            <span class="icon-circle">
+                                <i class="fa-solid fa-medal"></i>
+                            </span>
+                        </div>
+                        <div class="counter-num">
+                            <p class="counter">36</p>
+                            <span class="counter-text">AWARD WON</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------work section start---------------------------- -->
     <section class="work-section" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-box text-center">
+                        <h2 class="title">portfolio</h2>
+                        <p class="subtitle">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <div class="underline-heading"></div>
+                    </div>
+                </div>
+                <!-- Button trigger modal -->
+            </div>
+            <div class="row">
+                <div class="col-md-4 cards">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card">
+                            <img src="img/work-1.jpg" class="animate__zoomIn card-img-top" alt="ipad">
+                            <div class="card-body d-flex justify-content-between">
+                              <div class="card-content text-start">
+                                <p class="card-text">Lorem impsum dolor</p>
+                                <span class="ctegory">Web Design</span>
+                                <span class="slash">/</span>
+                                <span class="date">18 Sep. 2018</span>
+                              </div>
+                              <div class="icon-link">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </button>  
+                     <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        </div>
+                        <div class="modal-body">
+                            <h2 class="fs-5">Popover in a modal</h2>
+                            <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                            <hr>
+                            <h2 class="fs-5">Tooltips in a modal</h2>
+                            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 cards">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card">
+                            <img src="img/work-2.jpg" class="card-img-top" alt="ipad">
+                            <div class="card-body d-flex justify-content-between">
+                              <div class="card-content text-start">
+                                <p class="card-text">Loreda Cuno Nere</p>
+                                <span class="ctegory">Web Design</span>
+                                <span class="slash">/</span>
+                                <span class="date">18 Sep. 2018</span>
+                              </div>
+                              <div class="icon-link">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </button>
+                    <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2 class="fs-5">Popover in a modal</h2>
+                            <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                            <hr>
+                            <h2 class="fs-5">Tooltips in a modal</h2>
+                            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4 cards">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card">
+                            <img src="img/work-3.jpg" class="card-img-top" alt="ipad">
+                            <div class="card-body d-flex justify-content-between">
+                              <div class="card-content text-start">
+                                <p class="card-text">Mavrito Lana Dere</p>
+                                <span class="ctegory">Web Design</span>
+                                <span class="slash">/</span>
+                                <span class="date">18 Sep. 2018</span>
+                              </div>
+                              <div class="icon-link">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </button>
+                            <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="fs-5">Popover in a modal</h2>
+                                <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                                <hr>
+                                <h2 class="fs-5">Tooltips in a modal</h2>
+                                <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 cards">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card">
+                            <img src="img/work-4.jpg" class="card-img-top" alt="ipad">
+                            <div class="card-body d-flex justify-content-between">
+                              <div class="card-content text-start">
+                                <p class="card-text">Bindo Laro Cado</p>
+                                <span class="ctegory">Web Design</span>
+                                <span class="slash">/</span>
+                                <span class="date">18 Sep. 2018</span>
+                              </div>
+                              <div class="icon-link">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="fs-5">Popover in a modal</h2>
+                                <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                                <hr>
+                                <h2 class="fs-5">Tooltips in a modal</h2>
+                                <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 cards">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card">
+                            <img src="img/work-5.jpg" class="card-img-top" alt="ipad">
+                            <div class="card-body d-flex justify-content-between">
+                              <div class="card-content text-start">
+                                <p class="card-text">Studio Lena Mado</p>
+                                <span class="ctegory">Web Design</span>
+                                <span class="slash">/</span>
+                                <span class="date">18 Sep. 2018</span>
+                              </div>
+                              <div class="icon-link">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="fs-5">Popover in a modal</h2>
+                                <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                                <hr>
+                                <h2 class="fs-5">Tooltips in a modal</h2>
+                                <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="card">
+                            <img src="img/work-6.jpg" class="card-img-top" alt="ipad">
+                            <div class="card-body d-flex justify-content-between">
+                              <div class="card-content text-start">
+                                <p class="card-text">Lorem impsum dolor</p>
+                                <span class="ctegory">Web Design</span>
+                                <span class="slash">/</span>
+                                <span class="date">18 Sep. 2018</span>
+                              </div>
+                              <div class="icon-link">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h2 class="fs-5">Popover in a modal</h2>
+                                <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                                <hr>
+                                <h2 class="fs-5">Tooltips in a modal</h2>
+                                <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
 
+        </div>
     </section>
+<div class="testimonials">
+    <div class="container">
+        <div id="clintesCarouselIndicators" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonial-box d-flex flex-column text-center align-items-center">
+                        <div class="avatar-test d-flex flex-column">
+                            <img src="img/testimonial-2.jpg" alt="Xavi Alonso" class="testimonial rounded-circle b-shadow-a">
+                            <span class="avatar-name">Xavi Alonso</span>
+                        </div>
+                        <div class="content-test">
+                            <p class="description-test">
+                                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                            </p>
+                            <div class="comit d-flex justify-content-center align-items-center">
+                                <i class="fa fa-quote-right"></i>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial-box d-flex flex-column text-center align-items-center">
+                    <div class="avatar-test d-flex flex-column">
+                        <img src="img/testimonial-4.jpg" alt="Marta Socrate" class="testimonial rounded-circle b-shadow-a">
+                        <span class="avatar-name">Marta Socrate</span>
+                    </div>
+                    <div class="content-test">
+                        <p class="description-test">
+                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+                        <div class="comit d-flex justify-content-center align-items-center">
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#clintesCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#clintesCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        </div>
+    </div>
+</div>
+    
     <section class="blog-section" id="blog">
-
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="heading-box text-center">
+                    <h2 class="title">blog</h2>
+                    <p class="subtitle">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="underline-heading"></div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="contact-section" id="contact">
 
