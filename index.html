@@ -12,7 +12,7 @@
 
     <title>DevFolio</title>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#mainNav">
+<body data-bs-spy="scroll" data-bs-target="#navId">
     <!-- ----------------------------loading spinner ---------------------------- -->
     <!-- <div class="spinner-wrapper">
         <div class="spinner-border text-primary" role="status">
@@ -20,7 +20,7 @@
         </div>
     </div> -->
     <!-- ----------------------------header---------------------------- -->
-    <nav id="mainNav" class="navbar navbar-expand-md bg-body fixed-top navbar-trans">
+    <nav id="navId" class="navbar navbar-expand-md bg-body fixed-top navbar-trans">
         <div class="container">
             <a href="index.html" class="navbar-brand js-scroll">DevFolio
             </a>
@@ -334,7 +334,9 @@
                 <div class="col-md-4 cards">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="card">
-                            <img src="img/work-1.jpg" class="animate__zoomIn card-img-top" alt="ipad">
+                            <div class="img-wrapper">
+                                <img src="img/work-1.jpg" class="zoomin card-img-top" alt="ipad">
+                            </div>
                             <div class="card-body d-flex justify-content-between">
                               <div class="card-content text-start">
                                 <p class="card-text">Lorem impsum dolor</p>
@@ -370,7 +372,9 @@
                 <div class="col-md-4 cards">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="card">
-                            <img src="img/work-2.jpg" class="card-img-top" alt="ipad">
+                            <div class="img-wrapper">
+                                <img src="img/work-2.jpg" class="zoomin card-img-top" alt="office">
+                            </div>
                             <div class="card-body d-flex justify-content-between">
                               <div class="card-content text-start">
                                 <p class="card-text">Loreda Cuno Nere</p>
@@ -406,7 +410,9 @@
                 <div class="col-md-4 cards">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="card">
-                            <img src="img/work-3.jpg" class="card-img-top" alt="ipad">
+                            <div class="img-wrapper">
+                                <img src="img/work-3.jpg" class="zoomin card-img-top" alt="work">
+                            </div>
                             <div class="card-body d-flex justify-content-between">
                               <div class="card-content text-start">
                                 <p class="card-text">Mavrito Lana Dere</p>
@@ -442,7 +448,9 @@
                 <div class="col-md-4 cards">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="card">
-                            <img src="img/work-4.jpg" class="card-img-top" alt="ipad">
+                            <div class="img-wrapper">
+                                <img src="img/work-4.jpg" class="zoomin card-img-top" alt="work with coffee">
+                            </div>
                             <div class="card-body d-flex justify-content-between">
                               <div class="card-content text-start">
                                 <p class="card-text">Bindo Laro Cado</p>
@@ -478,7 +486,9 @@
                 <div class="col-md-4 cards">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="card">
-                            <img src="img/work-5.jpg" class="card-img-top" alt="ipad">
+                            <div class="img-wrapper">
+                                <img src="img/work-5.jpg" class="zoomin card-img-top" alt="studio">
+                            </div>
                             <div class="card-body d-flex justify-content-between">
                               <div class="card-content text-start">
                                 <p class="card-text">Studio Lena Mado</p>
@@ -514,7 +524,9 @@
                 <div class="col-md-4 ">
                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <div class="card">
-                            <img src="img/work-6.jpg" class="card-img-top" alt="ipad">
+                            <div class="img-wrapper">
+                                <img src="img/work-6.jpg" class="zoomin card-img-top" alt="big bang">
+                            </div>
                             <div class="card-body d-flex justify-content-between">
                               <div class="card-content text-start">
                                 <p class="card-text">Lorem impsum dolor</p>
@@ -554,15 +566,34 @@
 
         </div>
     </section>
-<div class="testimonials">
-    <div class="container">
-        <div id="clintesCarouselIndicators" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+<!-- ----------------------------work section END---------------------------- -->
+<!-- ----------------------------testimonials section start---------------------------- -->
+    <div class="testimonials">
+        <div class="container">
+            <div id="clintesCarouselIndicators" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-box d-flex flex-column text-center align-items-center">
+                            <div class="avatar-test d-flex flex-column">
+                                <img src="img/testimonial-2.jpg" alt="Xavi Alonso" class="testimonial rounded-circle b-shadow-a">
+                                <span class="avatar-name">Xavi Alonso</span>
+                            </div>
+                            <div class="content-test">
+                                <p class="description-test">
+                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                </p>
+                                <div class="comit d-flex justify-content-center align-items-center">
+                                    <i class="fa fa-quote-right"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
                     <div class="testimonial-box d-flex flex-column text-center align-items-center">
                         <div class="avatar-test d-flex flex-column">
-                            <img src="img/testimonial-2.jpg" alt="Xavi Alonso" class="testimonial rounded-circle b-shadow-a">
-                            <span class="avatar-name">Xavi Alonso</span>
+                            <img src="img/testimonial-4.jpg" alt="Marta Socrate" class="testimonial rounded-circle b-shadow-a">
+                            <span class="avatar-name">Marta Socrate</span>
                         </div>
                         <div class="content-test">
                             <p class="description-test">
@@ -571,47 +602,121 @@
                             </p>
                             <div class="comit d-flex justify-content-center align-items-center">
                                 <i class="fa fa-quote-right"></i>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="testimonial-box d-flex flex-column text-center align-items-center">
-                    <div class="avatar-test d-flex flex-column">
-                        <img src="img/testimonial-4.jpg" alt="Marta Socrate" class="testimonial rounded-circle b-shadow-a">
-                        <span class="avatar-name">Marta Socrate</span>
-                    </div>
-                    <div class="content-test">
-                        <p class="description-test">
-                            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.
-                        </p>
-                        <div class="comit d-flex justify-content-center align-items-center">
-                            <i class="fa fa-quote-right"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
-            
-        </div>
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#clintesCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#clintesCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div>
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#clintesCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#clintesCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            </div>
         </div>
     </div>
-</div>
-    
+<!-- ----------------------------testimonials section end---------------------------- -->
+<!-- ----------------------------blog section start---------------------------- -->
     <section class="blog-section" id="blog">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="heading-box text-center">
-                    <h2 class="title">blog</h2>
-                    <p class="subtitle">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <div class="underline-heading"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-box text-center">
+                        <h2 class="title">blog</h2>
+                        <p class="subtitle">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <div class="underline-heading"></div>
+                    </div>
                 </div>
+            </div>
+            <div class="row m-0">
+                <div class="row row-cols-1 row-cols-md-3  m-0">
+                    <div class="col card-wrapper">
+                      <div class="card">
+                        <img src="img/post-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-category-box">
+                                <div class="card-category">
+                                  <h6 class="category">Travel</h6>
+                                </div>
+                            </div>
+                            <a href="#">        
+                                <h5 class="card-title">See more ideas about Travel</h5>
+                            </a>
+                            <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="post-author">
+                                <a href="#" class="post-link">
+                                <img src="img/testimonial-2.jpg" alt="" class="avatar-card rounded-circle">
+                                <span class="author">Morgan Freeman</span>
+                                </a>
+                            </div>
+                            <div class="post-date d-inline-block float-end">
+                                <i class="fa-regular fa-clock"></i>
+                                10 min
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col card-wrapper">
+                      <div class="card">
+                        <img src="img/post-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-category-box">
+                                <div class="card-category">
+                                  <h6 class="category">Web Design</h6>
+                                </div>
+                            </div>
+                            <a href="#">        
+                                <h5 class="card-title">See more ideas about Travel</h5>
+                            </a>
+                            <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="post-author">
+                                <a href="#" class="post-link">
+                                <img src="img/testimonial-2.jpg" alt="" class="avatar-card rounded-circle">
+                                <span class="author">Morgan Freeman</span>
+                                </a>
+                            </div><div class="post-date d-inline-block float-end">
+                                <i class="fa-regular fa-clock"></i>
+                                10 min
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col card-wrapper">
+                      <div class="card">
+                        <img src="img/post-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-category-box">
+                                <div class="card-category">
+                                  <h6 class="category">Web Design</h6>
+                                </div>
+                            </div>
+                            <a href="#">        
+                                <h5 class="card-title">See more ideas about Travel</h5>
+                            </a>
+                            <p class="card-text">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="post-author">
+                                <a href="#" class="post-link">
+                                <img src="img/testimonial-2.jpg" alt="" class="avatar-card rounded-circle">
+                                <span class="author">Morgan Freeman</span>
+                                </a>
+                            </div>
+                            <div class="post-date d-inline-block float-end">
+                                <i class="fa-regular fa-clock"></i>
+                                10 min
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                   
             </div>
         </div>
     </section>
